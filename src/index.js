@@ -8,3 +8,5 @@ export function greet(name) {
 export function add(a, b) {
   return a + b;
 }
+
+export { register, login } from "./auth.js";
